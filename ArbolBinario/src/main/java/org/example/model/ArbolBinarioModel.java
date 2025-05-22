@@ -18,7 +18,6 @@ public class ArbolBinarioModel {
                 calcularAltura(nodo.getDerecho()));
     }
 
-    // Métodos para construir el árbol (pueden ser más complejos en una implementación real)
     public void insertar(int valor) {
         raiz = insertar(raiz, valor);
     }
